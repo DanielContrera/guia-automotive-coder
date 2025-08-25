@@ -1,0 +1,126 @@
+/* 5cab7d
+    5a9367
+    44633f
+    3f4b3b */
+
+
+
+
+/* Encabezado*/
+header{
+    background-color: #5cab7d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+nav{
+    width: 25%;
+}
+
+header ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+header li{
+    padding: 5px;
+}
+
+header a{
+    text-decoration: none;
+    color: black;
+}
+
+.logoAutomotive{
+    height: 100px;
+    width: 150px;
+}
+
+/* Body*/
+
+body{
+    font-family: "TikTok Sans";
+    background-color: white;
+    
+}
+
+table{
+    border: 2px solid black;
+}
+
+.detalleAuto{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 400px 200px 300px 500px;
+    grid-template-areas: "imagenP tablaCaracteristicas"
+                         "selectorimg tablaCaracteristicas"
+                         "descripcion videoExperiencia"
+                         "automotora ."   ;
+}
+
+.imagenPrincipal{
+    grid-area: imagenP;
+}
+
+.selectorImagenes{
+    grid-area: selectorimg;
+}
+
+.tablaCaracteristicas{
+    grid-area: tablaCaracteristicas;
+}
+
+.descripcionExperiencia{
+    grid-area: descripcion;
+}
+
+.automotora{
+    grid-area: automotora;
+}
+
+.videoExperiencia{
+    grid-area: videoExperiencia;
+}
+
+.contenedorTarjetas{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.tarjeta{
+    border: solid, black, 2px;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    margin: 5px;
+}
+
+.imagenTarjeta{
+    width: 300px;
+}
+
+.selectorImagenes img{
+    width: 200px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+/* Footer*/
+footer{
+    background-color: #3f4b3b;
+    display: flex;
+    justify-content: center;
+}
+
+.iconosFooter{
+    display: flex;
+    justify-content: space-between;
+}
