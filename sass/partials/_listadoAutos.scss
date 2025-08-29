@@ -1,0 +1,16 @@
+@use "variables" as*;
+.contenedorTarjetas{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+         .tarjeta{
+        border: solid, black, 2px;
+        display: flex;
+        justify-content: space-between;
+        padding: 5px;
+        margin: 5px;
+            .imagenTarjeta{
+            width: 300px;
+            }
+        }
+    }

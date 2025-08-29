@@ -1,0 +1,40 @@
+@use "variables" as*;
+/*Header*/
+header{
+    background-color: $color1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    nav{
+    width: 25%;
+
+        ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+            li{
+    padding: 5px;
+                a{
+    text-decoration: none;
+    color: black;
+                }
+            }
+        }
+    }
+    .logoAutomotive{
+    height: 100px;
+    width: 150px;
+    }
+}
+/*Footer*/
+
+footer{
+    background-color: $color4;
+    display: flex;
+    justify-content: center;
+        .iconosFooter{
+        display: flex;
+        justify-content: space-between;
+    }
+}

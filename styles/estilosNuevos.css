@@ -1,0 +1,103 @@
+/*Header*/
+header {
+  background-color: #5cab7d;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+header nav {
+  width: 25%;
+}
+header nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+header nav ul li {
+  padding: 5px;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+header .logoAutomotive {
+  height: 100px;
+  width: 150px;
+}
+
+/*Footer*/
+footer {
+  background-color: #3f4b3b;
+  display: flex;
+  justify-content: center;
+}
+footer .iconosFooter {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contenedorTarjetas {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.contenedorTarjetas .tarjeta {
+  border: solid, black, 2px;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  margin: 5px;
+}
+.contenedorTarjetas .tarjeta .imagenTarjeta {
+  width: 300px;
+}
+
+body {
+  font-family: "TikTok Sans";
+  background-color: white;
+}
+
+.paginaPrincipal {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.paginaPrincipal .tablaSeleccion {
+  border: 2px solid black;
+}
+
+.tablaCaracteristicas {
+  border: 2px solid black;
+}
+
+.detalleAuto {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 400px 200px 300px 500px;
+  grid-template-areas: "imagenP tablaCaracteristicas" "selectorimg tablaCaracteristicas" "descripcion videoExperiencia" "automotora .";
+}
+.detalleAuto .imagenPrincipal {
+  grid-area: imagenP;
+}
+.detalleAuto .selectorImagenes {
+  grid-area: selectorimg;
+}
+.detalleAuto .selectorImagenes img {
+  width: 200px;
+}
+.detalleAuto .tablaCaracteristicas {
+  grid-area: tablaCaracteristicas;
+}
+.detalleAuto .descripcionExperiencia {
+  grid-area: descripcion;
+}
+.detalleAuto .automotora {
+  grid-area: automotora;
+}
+.detalleAuto .videoExperiencia {
+  grid-area: videoExperiencia;
+}
+
+/*# sourceMappingURL=estilosNuevos.css.map */

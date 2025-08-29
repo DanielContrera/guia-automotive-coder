@@ -1,0 +1,17 @@
+@use "variables" as*;
+body{
+    font-family: "TikTok Sans";
+    background-color: white;
+    
+}
+
+.paginaPrincipal{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    .tablaSeleccion{
+         border: 2px solid black;
+
+    }
+}

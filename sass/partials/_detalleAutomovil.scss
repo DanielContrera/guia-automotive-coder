@@ -1,0 +1,35 @@
+@use "variables" as*;
+.tablaCaracteristicas{
+     border: 2px solid black;
+}
+
+.detalleAuto{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 400px 200px 300px 500px;
+    grid-template-areas: "imagenP tablaCaracteristicas"
+                         "selectorimg tablaCaracteristicas"
+                         "descripcion videoExperiencia"
+                         "automotora ."   ;
+    .imagenPrincipal{
+    grid-area: imagenP;
+    } 
+    .selectorImagenes{
+    grid-area: selectorimg;
+        img{
+        width: 200px;
+        }
+    }
+    .tablaCaracteristicas{
+    grid-area: tablaCaracteristicas;
+    }
+    .descripcionExperiencia{
+    grid-area: descripcion;
+    }
+    .automotora{
+    grid-area: automotora;
+    }
+    .videoExperiencia{
+    grid-area: videoExperiencia;
+    }
+}
